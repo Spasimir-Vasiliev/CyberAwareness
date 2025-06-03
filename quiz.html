@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cybersecurity Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Cybersecurity Quiz</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="tips.html">Tips</a>
+      <a href="quiz.html">Quiz</a>
+    </nav>
+  </header>
+
+  <main>
+    <form id="quizForm">
+      <h3>1. What is phishing?</h3>
+      <label><input type="radio" name="q1" value="a"> A sea creature</label><br>
+      <label><input type="radio" name="q1" value="b"> A scam to steal your data</label><br>
+      <label><input type="radio" name="q1" value="c"> A game</label><br><br>
+
+      <h3>2. What makes a strong password?</h3>
+      <label><input type="radio" name="q2" value="a"> Your birthday</label><br>
+      <label><input type="radio" name="q2" value="b"> “123456”</label><br>
+      <label><input type="radio" name="q2" value="c"> A mix of letters, numbers, and symbols</label><br><br>
+
+      <button type="button" onclick="checkAnswers()">Submit</button>
+    </form>
+
+    <p id="result"></p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
